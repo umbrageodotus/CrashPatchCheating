@@ -17,7 +17,7 @@ object CrashHelper {
     fun loadJson(): Boolean {
         return try {
             skyclientJson =
-                NetworkUtils.getJsonElement("https://raw.githubusercontent.com/SkyblockClient/CrashData/main/crashes.json").asJsonObject
+                NetworkUtils.getJsonElement("https://raw.githubusercontent.com/umbrageodotus/CrashDataCheating/main/crashes.json").asJsonObject
             true
         } catch (e: Exception) {
             e.printStackTrace()
